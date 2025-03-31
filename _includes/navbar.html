@@ -1,5 +1,5 @@
 <div class="nav-wrapper">
-      <span class="site-title">{{ site.title }}</span>
+      {% if site.logo %}<img alt='{{ site.title }} Logo' height='48' src='{{ site.url }}{{ site.baseurl }}{{ site.logo }}'/>{% elsif %}<span class="site-title">{{ site.title }}</span>{% endif %}
       <a href="#" data-activates="mobile-navbar" class="button-collapse"><i class="mdi mdi-menu white-text"></i></a>
       
       <ul id="nav-mobile" class="right hide-on-med-and-down">
