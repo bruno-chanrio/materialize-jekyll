@@ -1,6 +1,6 @@
 # Site settings
 
-author: Yourname
+author: Bruno-chanrio 
 
 head-title: Your blog
 title: Your blog
@@ -13,7 +13,7 @@ description: "I know that what I'm doing looks stupid, but I'm a big boy and rea
 
 favo: "春梦随云散，飞花逐水流"
 descrpt: "“巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟”  ——《南华经》"
-
+developedby: true
 
 #
 # Build settings
