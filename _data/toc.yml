@@ -1,0 +1,5 @@
+page:
+  - title: About
+  - icon: information-outline
+  - color: pink
+  - url: about
