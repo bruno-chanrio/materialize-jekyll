@@ -1,4 +1,5 @@
 plugins:
+- nokogiri
 - jekyll-last-modified-at
 - jemoji
 
