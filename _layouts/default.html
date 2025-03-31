@@ -10,7 +10,7 @@
         {% include navbar.html %}
 
         <div class="nav-content">
-          {% if site.tabsenabled == true %}
+          {% if site.showtabbar == true %}
           <ul class="tabs tabs-transparent">
             <li class="tab"><a class="active" href="#tab-main">main</a></li>
           {% for t in site.data.tabs %}
@@ -22,7 +22,7 @@
       </nav>
     </header>
 
-  {% if site.tabsenabled == true %}
+  {% if site.showtabbar == true %}
   {% for t in site.data.tabs %}
     <div id="{{ t.id }}">
       {% include {{ t.fp }} %}
