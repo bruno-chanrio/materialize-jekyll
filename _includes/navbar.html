@@ -11,8 +11,8 @@
       </ul>
       <ul class="side-nav" id="mobile-navbar">
         {% for page in site.data.toc %}
-            <li><a href="{{ '/{{ page.url }}' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-                  <i class="mdi mdi-{{ page.icon }} left {{ page.color }}"></i>{{ page.title }}
+            <li><a href="{{ site.url }}{{ site.baseurl }}/{{ page.url }}" class="waves-effect waves-teal black-text">
+                  <i class="mdi mdi-{{ page.icon }} left {{ page.color }}-text"></i>{{ page.title }}
             </a></li>
         {% endfor %}
       </ul>
