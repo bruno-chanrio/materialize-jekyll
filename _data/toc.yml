@@ -1,3 +1,7 @@
+- title: Home
+  icon: home
+  color: pink
+  url: 
 - title: About
   icon: information-outline
   color: pink
