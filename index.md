@@ -1,4 +1,7 @@
-Materialize - jekyll
+---
+layout: page
+---
+# Materialize - jekyll
 ==============
 
 
