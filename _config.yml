@@ -1,3 +1,7 @@
+plugins:
+- jekyll-last-modified-at
+- jemoji
+
 # Site settings
 
 author: Bruno-chanrio 
@@ -36,7 +40,6 @@ sass:
 permalink: /posts/:categories/:title.html
 
 
-gems: [jekyll-last-modified-at, jemoji]
 
 
 #
